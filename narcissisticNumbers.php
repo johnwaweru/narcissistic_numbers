@@ -1,6 +1,6 @@
 <?php
-    $n = $sum = $temp = 0;
-	
+    $sum = 0;
+
 	// Require a number to check for egoism :-)
 	$n = 153;
 	
