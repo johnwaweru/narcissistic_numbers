@@ -5,7 +5,7 @@
 	$n = 153;
 	
 	$temp = $n; /*Store the original number in $temp*/
-	$totalDigits = 3; /*Total number of digits comprising $n*/
+	$totalDigits = strlen($n); /*Total number of digits comprising $n*/
 	
 	while($n != 0) {
 		$r = $n%10; /*Extract the last digit*/
@@ -18,4 +18,5 @@
 	} else {
 		echo "$temp is not an armstrong number";
 	}
+
 ?>
